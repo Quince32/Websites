@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+#section1, #section2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+#section3{    
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;    
+    gap: 20px;               
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#section1 h2, #section2 h2, #section3 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.product-card {
+    flex: 1;                 
+    min-width: 250px;       
+    max-width: 350px;        
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    text-decoration-line: none;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#footer ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    text-decoration-line: none;
+    gap: 20px;
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
